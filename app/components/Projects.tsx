@@ -1,8 +1,12 @@
+"use client"
+import useInView from "../hooks/useInView"
+
 export default function Projects() {
+    const [ref, isVisible] = useInView()
     return (
-        <section id="projects" className="min-h-screen flex items-center justify-center px-6 py-20">
+        <section id="projects" className={`min-h-screen flex items-center justify-center px-6 py-20 will-change-[opacity,transform] transition-opacity duration-7000 ease-out ${isVisible ? 'opacity-100' : 'opacity-0'}`} ref={ref}>
             <div className="max-w-4xl w-full flex flex-col gap-12">
-                <h2 className="text-4xl font-bold">Projects</h2>
+                <h2 className="text-4xl font-bold font-heading">Projects</h2>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div className="border border-cyan-400 rounded-2xl p-6 flex flex-col gap-4">
