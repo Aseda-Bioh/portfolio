@@ -9,7 +9,7 @@ export default function Projects() {
                 <h2 className="text-4xl font-bold font-heading">Projects</h2>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <div className="border border-cyan-400 rounded-2xl p-6 flex flex-col gap-4">
+                    <div className="border border-white/10 rounded-2xl p-6 flex flex-col gap-4 bg-white/8 backdrop-blur-md hover:bg-white/10 hover:-translate-y-1 hover:shadow-lg hover:shadow-cyan-500/55 transition-all duration-300">
                         <h3 className="text-xl font-bold text-cyan-400">ArcFound</h3>
                         <p className="text-gray-300 text-sm leading-relaxed text-justify">
                             A full stack platform that connects startup founders with investors while protecting their intellectual property. Founders can pitch their ideas and attract funding without compromising ownership.
@@ -24,7 +24,7 @@ export default function Projects() {
                         </div>
                         <a href="https://www.tryarcfound.com" target="_blank" className="hover:text-white underline">www.tryarcfound.com</a>
                     </div>
-                    <div className="border border-cyan-400 rounded-2xl p-6 flex flex-col gap-4">
+                    <div className="border border-white/10 rounded-2xl p-6 flex flex-col gap-4 bg-white/8 backdrop-blur-md hover:bg-white/10 hover:-translate-y-1 hover:shadow-lg hover:shadow-cyan-500/55 transition-all duration-300">
                         <h3 className="text-xl font-bold text-cyan-400">SmartTraffic</h3>
                         <p className="text-gray-300 text-sm leading-relaxed text-justify">
                             A simulation-based intelligent traffic control system that uses reinforcement learning to optimize general traffic flow and automatically prioritize emergency vehicles — reducing response times in critical situations.
@@ -38,7 +38,7 @@ export default function Projects() {
                         </div>
                         <a href="https://github.com/jka26/traffic_control_capstone" target="_blank" className="hover:text-white underline">SmartTraffic</a>
                     </div>
-                    <div className="border border-cyan-400 rounded-2xl p-6 flex flex-col gap-4">
+                    <div className="border border-white/10 rounded-2xl p-6 flex flex-col gap-4 bg-white/8 backdrop-blur-md hover:bg-white/10 hover:-translate-y-1 hover:shadow-lg hover:shadow-cyan-500/55 transition-all duration-300">
                         <h3 className="text-xl font-bold text-cyan-400">AshesiLife</h3>
                         <p className="text-gray-300 text-sm leading-relaxed text-justify">
                             A mobile app that brings campus life at Ashesi University together in one place. Students can discover and follow campus events, subscribe to clubs and committees, receive real-time notifications and report issues directly through the app.
@@ -50,7 +50,7 @@ export default function Projects() {
                         </div>
                         <a href="https://github.com/billionzz798/ASHESI-LIFE" target="_blank" className="hover:text-white underline">AshesiLife</a>
                     </div>
-                    <div className="border border-cyan-400 rounded-2xl p-6 flex flex-col gap-4">
+                    <div className="border border-white/10 rounded-2xl p-6 flex flex-col gap-4 bg-white/8 backdrop-blur-md hover:bg-white/10 hover:-translate-y-1 hover:shadow-lg hover:shadow-cyan-500/55 transition-all duration-300">
                         <h3 className="text-xl font-bold text-cyan-400">VoiceLog</h3>
                         <p className="text-gray-300 text-sm leading-relaxed text-justify">
                             A mobile app that silently records meetings in the background, then automatically generates a concise summary and extracts action items — identifying who is responsible for each task.
